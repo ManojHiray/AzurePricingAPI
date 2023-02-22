@@ -1,0 +1,59 @@
+﻿<Window x:Class="AzurePricingAPI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AzurePricingAPI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1500">
+    <Grid>
+
+        <ListBox Name="lb" Width="143" Height="434"  SelectionMode="Multiple" HorizontalAlignment="Left" VerticalAlignment="Top" 
+         SelectedValuePath="Content" SelectionChanged="addGrid" Margin="0,10,0,0" Grid.ColumnSpan="2" Background="LightSeaGreen" FontWeight="DemiBold">
+            <ListBoxItem>currencyCode</ListBoxItem>
+            <ListBoxItem>tierMinimumUnits</ListBoxItem>
+            <ListBoxItem>retailPrice</ListBoxItem>
+            <ListBoxItem>unitPrice</ListBoxItem>
+            <ListBoxItem>armRegionName</ListBoxItem>
+            <ListBoxItem>location</ListBoxItem>
+            <ListBoxItem>effectiveStartDate</ListBoxItem>
+            <ListBoxItem>meterId</ListBoxItem>
+            <ListBoxItem>meterName</ListBoxItem>
+            <ListBoxItem>productId</ListBoxItem>
+            <ListBoxItem>skuId</ListBoxItem>
+            <ListBoxItem>productName</ListBoxItem>
+            <ListBoxItem>skuName</ListBoxItem>
+            <ListBoxItem>serviceName</ListBoxItem>
+            <ListBoxItem>serviceId</ListBoxItem>
+            <ListBoxItem>serviceFamily</ListBoxItem>
+            <ListBoxItem >unitOfMeasure</ListBoxItem>
+            <ListBoxItem >type</ListBoxItem>
+            <ListBoxItem >isPrimaryMeterRegion</ListBoxItem>
+            <ListBoxItem>armSkuName</ListBoxItem>
+        </ListBox>
+
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" ColumnWidth="*" Margin="143,10,0,124" AlternatingRowBackground="BurlyWood" BorderThickness="5" BorderBrush="Brown" FontSize="14" Background="DarkSeaGreen">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn   Header="Check" Width="50" Binding="{Binding Check}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <!--<Button Content="Generate Pdf" HorizontalAlignment="Left" Margin="650,461,0,0" VerticalAlignment="Top" Height="47" Width="128" Click="Generate_PDF" Grid.Column="1" Background="#FFA7DC94" FontWeight="Bold" FontSize="16"/>-->
+        <Button Content="Reset" HorizontalAlignment="Left" Height="47" Margin="857,502,0,0" VerticalAlignment="Top" Width="140" Click="Reset" FontSize="20" FontWeight="Bold" Background="#FFEFE465"/>
+
+        <ComboBox x:Name="comboBox"  Background="#FF2EC6ED" FontSize="20" FontStyle="Normal" FontWeight="Bold" HorizontalAlignment="Left" Height="47" Margin="609,502,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="0.532,1.175">
+
+            <ComboBoxItem Content="ShareWith" IsSelected="True" Visibility="Collapsed" FontSize="14"></ComboBoxItem>
+
+            <Button Content="PDF" Height="40" Width="130" Click="PDF" FontSize="14" FontWeight="Bold" Background="#40E0D0"/>
+            <Button Content="JSON" Height="40" Width="130" Click="JSON" FontSize="14" FontWeight="Bold" Background="#40E0D0"/>
+            <Button Content="XML" Height="40" Width="130" Click="XML" FontSize="14" FontWeight="Bold" Background="#40E0D0"/>
+            <Button Content="CSV" Height="40" Width="130" Click="CSV" FontSize="14" FontWeight="Bold" Background="#40E0D0"/>
+
+        </ComboBox>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePricingAPI", "AzurePricingAPI\AzurePricingAPI.csproj", "{C0C32E7C-276E-419F-B4CE-2C9D6502D59D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0C32E7C-276E-419F-B4CE-2C9D6502D59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C32E7C-276E-419F-B4CE-2C9D6502D59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C32E7C-276E-419F-B4CE-2C9D6502D59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C32E7C-276E-419F-B4CE-2C9D6502D59D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F650BE-CEA4-4424-9344-5D331A0095A8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+[
+  {
+    "armRegionName": "southindia",
+    "armSkuName": "Standard_D14",
+    "isPrimaryMeterRegion": "True"
+  },
+  {
+    "armRegionName": "southindia",
+    "armSkuName": "Standard_D14",
+    "isPrimaryMeterRegion": "True"
+  },
+  {
+    "armRegionName": "eastasia",
+    "armSkuName": "Standard_D64s_v5",
+    "isPrimaryMeterRegion": "True"
+  }
+]

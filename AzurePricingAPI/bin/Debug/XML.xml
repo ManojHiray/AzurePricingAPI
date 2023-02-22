@@ -1,0 +1,17 @@
+<Item>
+  <Item_x0020_>
+    <armRegionName>southindia</armRegionName>
+    <armSkuName>Standard_D14</armSkuName>
+    <isPrimaryMeterRegion>True</isPrimaryMeterRegion>
+  </Item_x0020_>
+  <Item_x0020_>
+    <armRegionName>southindia</armRegionName>
+    <armSkuName>Standard_D14</armSkuName>
+    <isPrimaryMeterRegion>True</isPrimaryMeterRegion>
+  </Item_x0020_>
+  <Item_x0020_>
+    <armRegionName>eastasia</armRegionName>
+    <armSkuName>Standard_D64s_v5</armSkuName>
+    <isPrimaryMeterRegion>True</isPrimaryMeterRegion>
+  </Item_x0020_>
+</Item>
